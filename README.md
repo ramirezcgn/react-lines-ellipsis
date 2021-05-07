@@ -1,24 +1,24 @@
-[![Build Status](https://travis-ci.org/xiaody/react-lines-ellipsis.svg?branch=master)](https://travis-ci.org/xiaody/react-lines-ellipsis)
-[![npm version](https://badge.fury.io/js/react-lines-ellipsis.svg)](https://www.npmjs.com/package/react-lines-ellipsis)
-[![dependencies Status](https://david-dm.org/xiaody/react-lines-ellipsis/status.svg)](https://david-dm.org/xiaody/react-lines-ellipsis)
+[![Build Status](https://travis-ci.org/ramirezcgn/react-lines-ellipsis-observer.svg?branch=master)](https://travis-ci.org/ramirezcgn/react-lines-ellipsis-observer)
+[![npm version](https://badge.fury.io/js/react-lines-ellipsis-observer.svg)](https://www.npmjs.com/package/react-lines-ellipsis-observer)
+[![dependencies Status](https://david-dm.org/ramirezcgn/react-lines-ellipsis-observer.svg)](https://david-dm.org/ramirezcgn/react-lines-ellipsis-observer)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://standardjs.com/)
 
-# react-lines-ellipsis
+# react-lines-ellipsis-observer
 
-Poor man's multiline ellipsis component for React.JS https://xiaody.github.io/react-lines-ellipsis/
+Fork with some improvements of Xiaody multiline ellipsis component for React.JS https://github.com/xiaody/react-lines-ellipsis
 
 ## Installation
 
 To install the stable version:
 
 ```
-npm install --save react-lines-ellipsis
+npm install --save react-lines-ellipsis-observer
 ```
 
 ## Usage
 
 ```jsx
-import LinesEllipsis from 'react-lines-ellipsis'
+import LinesEllipsis from 'react-lines-ellipsis-observer'
 
 <LinesEllipsis
   text='long long text'
@@ -107,7 +107,7 @@ The `props.onReflow` gives you `html` instead of `text`.
 `props.trimRight` is not supported by `HTMLEllipsis`.
 
 ```jsx
-import HTMLEllipsis from 'react-lines-ellipsis/lib/html'
+import HTMLEllipsis from 'react-lines-ellipsis-observer/lib/html'
 
 <HTMLEllipsis
   unsafeHTML='simple html content'
@@ -119,8 +119,8 @@ import HTMLEllipsis from 'react-lines-ellipsis/lib/html'
 
 ## Responsive to window resize and orientation change
 ```js
-import LinesEllipsis from 'react-lines-ellipsis'
-import responsiveHOC from 'react-lines-ellipsis/lib/responsiveHOC'
+import LinesEllipsis from 'react-lines-ellipsis-observer'
+import responsiveHOC from 'react-lines-ellipsis-observer/lib/responsiveHOC'
 
 const ResponsiveEllipsis = responsiveHOC()(LinesEllipsis)
 // then just use ResponsiveEllipsis
@@ -135,7 +135,7 @@ See https://css-tricks.com/line-clampin/#article-header-id-0 for some introducti
 Also, you may want to star and follow https://crbug.com/305376.
 
 ```jsx
-import LinesEllipsisLoose from 'react-lines-ellipsis/lib/loose'
+import LinesEllipsisLoose from 'react-lines-ellipsis-observer/lib/loose'
 
 <LinesEllipsisLoose
   text='long long text'
