@@ -57,6 +57,9 @@
     "watchify": "^3.11.1"
   },
   "standard": {
+    "globals": [
+      "ResizeObserver"
+    ],
     "ignore": [
       "lib",
       "docs/*.bundle.js"
