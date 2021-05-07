@@ -1,6 +1,5 @@
 [![Build Status](https://travis-ci.org/ramirezcgn/react-lines-ellipsis-observer.svg?branch=master)](https://travis-ci.org/ramirezcgn/react-lines-ellipsis-observer)
 [![npm version](https://badge.fury.io/js/react-lines-ellipsis-observer.svg)](https://www.npmjs.com/package/react-lines-ellipsis-observer)
-[![dependencies Status](https://david-dm.org/ramirezcgn/react-lines-ellipsis-observer.svg)](https://david-dm.org/ramirezcgn/react-lines-ellipsis-observer)
 [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg)](https://standardjs.com/)
 
 # react-lines-ellipsis-observer
