@@ -1,9 +1,6 @@
 import React from 'react'
 import { canvasStyle, mirrorProps } from './common'
 import { omit } from './helpers'
-export { default as responsiveHOC } from './responsiveHOC'
-export { default as HTMLEllipsis } from './html'
-export { default as LinesEllipsisLoose } from './loose'
 
 function prevSibling (node, count) {
   while (node && count--) {
